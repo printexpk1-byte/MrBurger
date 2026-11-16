@@ -33,6 +33,14 @@ export function GoogleTranslateControl() {
   const [activeLang, setActiveLang] = useState<string>(getCookieLanguage);
 
   useEffect(() => {
+    const win = window as Window & {
+      googleTranslateElementInit?: () => void;
+    };
+    const target = document.getElementById('google_translate_element');
+    if (target && !target.hasChildNodes() && typeof win.googleTranslateElementInit === 'function') {
+      win.googleTranslateElementInit();
+    }
+
     const syncSelect = () => {
       const select = document.querySelector<HTMLSelectElement>('.goog-te-combo');
       if (!select) return false;

@@ -27,14 +27,26 @@
     <script type="module" src="/src/main.tsx"></script>
     <script type="text/javascript">
       function googleTranslateElementInit() {
-        if (window.google && window.google.translate && window.google.translate.TranslateElement) {
-          new window.google.translate.TranslateElement(
-            {
-              pageLanguage: 'de',
-              autoDisplay: false,
-            },
-            'google_translate_element'
-          );
+        try {
+          window.__googleTranslateScriptLoaded = true;
+          var target = document.getElementById('google_translate_element');
+          if (
+            target &&
+            !target.hasChildNodes() &&
+            window.google &&
+            window.google.translate &&
+            window.google.translate.TranslateElement
+          ) {
+            new window.google.translate.TranslateElement(
+              {
+                pageLanguage: 'de',
+                autoDisplay: false,
+              },
+              'google_translate_element'
+            );
+          }
+        } catch (e) {
+          // Ignore third-party script errors when offline or blocked
         }
       }
     </script>
