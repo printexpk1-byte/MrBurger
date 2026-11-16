@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Barlow Condensed', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #0e0e10;
+    color: #f4f4f5;
+  }
+
+  body {
+    top: 0 !important;
+    position: static !important;
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide Google Translate top banner bar & layout shift */
+.goog-te-banner-frame.skiptranslate,
+iframe.goog-te-banner-frame,
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  display: none !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover,
+#goog-gt-tt {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Style the native Google Translate select cleanly inside dark UI */
+#google_translate_element .goog-te-gadget {
+  font-family: var(--font-sans) !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  display: flex;
+  align-items: center;
+}
+
+#google_translate_element .goog-te-gadget > span,
+#google_translate_element .goog-te-gadget .goog-logo-link {
+  display: none !important;
+}
+
+#google_translate_element .goog-te-combo {
+  appearance: auto;
+  background-color: #18181b;
+  color: #f4f4f5;
+  border: 1px solid #2e2e34;
+  border-radius: 0.5rem;
+  padding: 0.375rem 0.625rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  cursor: pointer;
+  outline: none;
+  max-width: 170px;
+  transition: border-color 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#google_translate_element .goog-te-combo:hover,
+#google_translate_element .goog-te-combo:focus-visible {
+  border-color: #d9232e;
+}
+
+/* Hide scrollbar on horizontal category strip while keeping scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Mr. Nice Burgers – Speisekarte",
+  "description": "Digitale Speisekarte für Mr. Nice Burgers in Bergheim: Burger, Mr Nice Smash, Hot Dogs, Salate, Fingerfood, Getränke, Saucen und Extras.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
