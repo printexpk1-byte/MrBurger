@@ -82,13 +82,17 @@ export function GoogleTranslateControl() {
     if (select) {
       if (langCode === 'de') {
         // Restore original German page cleanly when returning to default language
-        const iframe = document.querySelector<HTMLIFrameElement>('iframe.goog-te-banner-frame');
-        const restoreBtn = iframe?.contentDocument?.querySelector<HTMLElement>(
-          '[id=":1.restore"], button[id*="restore"]'
-        );
-        if (restoreBtn) {
-          restoreBtn.click();
-          return;
+        try {
+          const iframe = document.querySelector<HTMLIFrameElement>('iframe.goog-te-banner-frame');
+          const restoreBtn = iframe?.contentDocument?.querySelector<HTMLElement>(
+            '[id=":1.restore"], button[id*="restore"]'
+          );
+          if (restoreBtn) {
+            restoreBtn.click();
+            return;
+          }
+        } catch {
+          // Fallback to reload below if iframe is cross-origin
         }
         select.value = 'de';
         select.dispatchEvent(new Event('change', { bubbles: true }));
