@@ -38,7 +38,7 @@ export const RESTAURANT_INFO = {
   instagram: 'Mr.Niceburgers',
   facebook: 'MrNiceburgers',
   highlights: 'HOTDOG · BURGER · CURRYWURST',
-  heroImage: '/src/assets/images/hero_mr_nice_spread_1794828146996.jpg',
+  heroImage: './src/assets/images/hero_mr_nice_spread_1794828146996.jpg',
 };
 
 export const ADDITIVES_LEGEND: Record<string, string> = {
@@ -70,7 +70,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '9,00€' },
           { label: 'Menüs', price: '12,90€' },
         ],
-        image: '/src/assets/images/burger_hamburger_1794828149217.jpg',
+        image: './src/assets/images/burger_hamburger_1794828149217.jpg',
         imageAlt: 'Hamburger mit gegrilltem Rindfleisch, Lollo-Bionda, Tomate, Gurke und roten Zwiebeln',
       },
       {
@@ -84,7 +84,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '9,50€' },
           { label: 'Menüs', price: '13,50€' },
         ],
-        image: '/src/assets/images/burger_cheeseburger_1794828148203.jpg',
+        image: './src/assets/images/burger_cheeseburger_1794828148203.jpg',
         imageAlt: 'Cheeseburger mit geschmolzenem Cheddar, Lollo-Bionda, Tomate und Gurke',
       },
       {
@@ -98,7 +98,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '12,50€' },
           { label: 'Menüs', price: '16,50€' },
         ],
-        image: '/src/assets/images/burger_senator_scharf_1794828147966.jpg',
+        image: './src/assets/images/burger_senator_scharf_1794828147966.jpg',
         imageAlt: 'Senator Burger scharf mit Rindfleisch, Spiegelei, Bacon, Cheddar und Jalapeños',
       },
       {
@@ -112,7 +112,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '11,50€' },
           { label: 'Menüs', price: '15,50€' },
         ],
-        image: '/src/assets/images/burger_al_gobernador_1794828150024.jpg',
+        image: './src/assets/images/burger_al_gobernador_1794828150024.jpg',
         imageAlt: 'Al Gobernador Burger scharf mit saftigem Rindfleisch und geschmolzenem Käse',
       },
       {
@@ -127,7 +127,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '10,00€' },
           { label: 'Menüs', price: '14,90€' },
         ],
-        image: '/src/assets/images/burger_chili_cheeseburger_1794828150102.jpg',
+        image: './src/assets/images/burger_chili_cheeseburger_1794828150102.jpg',
         imageAlt: 'Chili Cheeseburger mit Jalapeños, scharfem Ketchup und Cheddar Käse',
       },
       {
@@ -141,7 +141,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '11,00€' },
           { label: 'Menüs', price: '15,00€' },
         ],
-        image: '/src/assets/images/burger_bbq_burger_1794828149970.jpg',
+        image: './src/assets/images/burger_bbq_burger_1794828149970.jpg',
         imageAlt: 'BBQ Burger mit Bacon, karamellisierten Zwiebeln, Cheddar und BBQ Sauce',
       },
       {
@@ -155,7 +155,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '11,50€' },
           { label: 'Menüs', price: '15,50€' },
         ],
-        image: '/src/assets/images/burger_italian_burger_1794828150584.jpg',
+        image: './src/assets/images/burger_italian_burger_1794828150584.jpg',
         imageAlt: 'Italian Burger mit Rucola, Parmesan, Gorgonzola und Röstzwiebeln',
       },
       {
@@ -169,7 +169,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '11,50€' },
           { label: 'Menüs', price: '15,50€' },
         ],
-        image: '/src/assets/images/burger_chicken_burger_1794828150222.jpg',
+        image: './src/assets/images/burger_chicken_burger_1794828150222.jpg',
         imageAlt: 'Chicken Burger mit knusprigem Hähnchen, karamellisierten Zwiebeln und Sweet Chili Sauce',
       },
       {
@@ -183,7 +183,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '7,00€' },
           { label: 'Menüs', price: '11,00€' },
         ],
-        image: '/src/assets/images/burger_veggie_burger_1794828150659.jpg',
+        image: './src/assets/images/burger_veggie_burger_1794828150659.jpg',
         imageAlt: 'Veggie Burger mit knusprigem Gemüse-Patty, Lollo Bionda und Sweet Chili Sauce',
       },
       {
@@ -197,7 +197,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'Single', price: '13,50€' },
           { label: 'Menüs', price: '17,50€' },
         ],
-        image: '/src/assets/images/burger_mr_nice_1794828150587.jpg',
+        image: './src/assets/images/burger_mr_nice_1794828150587.jpg',
         imageAlt: 'Mr. Nice Burger mit Extra Beef, doppelt Cheddar Käse und karamellisierten Zwiebeln',
       },
     ],
@@ -214,7 +214,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           'Doppelt Beef-Pattie, Ketchup, Senf, Mr.Nice Sauce, Beef-Pattie, Zwiebeln, Tomate mit Pommes und Getränk',
         fallbackSubtitle: 'Smash Burger Menü mit Pommes & Getränk',
         prices: [{ label: 'Menü', price: '11,00€' }],
-        image: '/src/assets/images/smash_nice_and_cheese_1794828152058.jpg',
+        image: './src/assets/images/smash_nice_and_cheese_1794828152058.jpg',
         imageAlt: 'Nice & Cheese Smash Burger serviert mit Pommes und Getränk',
       },
       {
@@ -224,7 +224,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           'Doppelt Beef-Pattie, Ketchup, Senf, Mr.Nice Sauce, Gurke, Zwiebeln und Tomate mit Pommes und Getränk',
         fallbackSubtitle: 'Double Smash Burger Menü mit Pommes & Getränk',
         prices: [{ label: 'Menü', price: '15,50€' }],
-        image: '/src/assets/images/smash_double_nice_cheese_1794828152926.jpg',
+        image: './src/assets/images/smash_double_nice_cheese_1794828152926.jpg',
         imageAlt: 'Double Nice & Cheese Smash Burger mit Pommes und kaltem Getränk',
       },
       {
@@ -234,7 +234,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           'Mr.Nice Sauce, BBQ Sauce, Beef-Pattie, Bacon, Tomate, Gurke, karamellisierte Zwiebeln',
         fallbackSubtitle: 'Smoky Smash Burger mit Bacon & BBQ Sauce',
         prices: [{ label: 'Einzeln', price: '12,60€' }],
-        image: '/src/assets/images/smash_nice_and_smoky_1794828152240.jpg',
+        image: './src/assets/images/smash_nice_and_smoky_1794828152240.jpg',
         imageAlt: 'Nice & Smoky Smash Burger mit Bacon, BBQ Sauce und karamellisierten Zwiebeln',
       },
       {
@@ -244,7 +244,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           '2 mal Smash Burger mit Mr.Nice Sauce, Ketchup, Senf, Tomate, Gurke, Zwiebeln Mit Pommes und Getränk',
         fallbackSubtitle: '2x Smash Burger Bundle mit Pommes & Getränk',
         prices: [{ label: 'Menü', price: '19,00€' }],
-        image: '/src/assets/images/smash_two_nice_cheese_meal_1794828153246.jpg',
+        image: './src/assets/images/smash_two_nice_cheese_meal_1794828153246.jpg',
         imageAlt: '2 Nice & Cheese Smash Burger mit Pommes und Getränken',
       },
     ],
@@ -259,7 +259,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         name: 'CLASSIC HOT DOG',
         fallbackSubtitle: 'Hot Dogs · Klassik',
         prices: [{ label: 'Preis', price: '6,00€' }],
-        image: '/src/assets/images/hotdog_classic_1794828153412.jpg',
+        image: './src/assets/images/hotdog_classic_1794828153412.jpg',
         imageAlt: 'Classic Hot Dog im weichen Brötchen mit Röstzwiebeln',
       },
       {
@@ -268,7 +268,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Hot Dogs · Mit Käse',
         prices: [{ label: 'Preis', price: '6,50€' }],
-        image: '/src/assets/images/hotdog_cheese_1794828152008.jpg',
+        image: './src/assets/images/hotdog_cheese_1794828152008.jpg',
         imageAlt: 'Cheese Dog mit geschmolzener Käsesauce und Röstzwiebeln',
       },
       {
@@ -278,7 +278,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         spiceTag: 'Scharf',
         fallbackSubtitle: 'Hot Dogs · Chili & Käse',
         prices: [{ label: 'Preis', price: '7,50€' }],
-        image: '/src/assets/images/hotdog_chili_cheese_1794828152771.jpg',
+        image: './src/assets/images/hotdog_chili_cheese_1794828152771.jpg',
         imageAlt: 'Chili Cheese Dog mit Käsesauce, Jalapeños und Röstzwiebeln',
       },
       {
@@ -287,7 +287,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Hot Dogs · BBQ Style',
         prices: [{ label: 'Preis', price: '7,50€' }],
-        image: '/src/assets/images/hotdog_bbq_1794828152936.jpg',
+        image: './src/assets/images/hotdog_bbq_1794828152936.jpg',
         imageAlt: 'BBQ Dog mit rauchiger BBQ Sauce und Röstzwiebeln',
       },
     ],
@@ -303,7 +303,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         description: 'ca, 260g gegrillte Hähnchenbrust auf frischen Mr. Nice Salatmix',
         fallbackSubtitle: 'Salat mit gegrillter Hähnchenbrust',
         prices: [{ label: 'Preis', price: '13,00€' }],
-        image: '/src/assets/images/salad_chicken_1794828153621.jpg',
+        image: './src/assets/images/salad_chicken_1794828153621.jpg',
         imageAlt: 'Chicken Salat mit gegrillter Hähnchenbrust auf frischem Salatmix',
       },
       {
@@ -312,7 +312,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         description: 'mit 8 Black Tiger Garnelen auf frischen Mr. Nice Salatmix',
         fallbackSubtitle: 'Salat mit Black Tiger Garnelen',
         prices: [{ label: 'Preis', price: '17,00€' }],
-        image: '/src/assets/images/salad_gamba_1794828154242.jpg',
+        image: './src/assets/images/salad_gamba_1794828154242.jpg',
         imageAlt: 'Gamba Salat mit 8 Black Tiger Garnelen auf frischem Salatmix',
       },
     ],
@@ -328,7 +328,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         description: 'Aus frischen Kartoffeln',
         fallbackSubtitle: 'Klassische Pommes',
         prices: [{ label: 'Preis', price: '4,00€' }],
-        image: '/src/assets/images/fingerfood_fritten_1794828155158.jpg',
+        image: './src/assets/images/fingerfood_fritten_1794828155158.jpg',
         imageAlt: 'Knusprige Fritten aus frischen Kartoffeln',
       },
       {
@@ -337,7 +337,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         description: 'Aus frischen Süsskartoffeln',
         fallbackSubtitle: 'Süßkartoffel-Pommes',
         prices: [{ label: 'Preis', price: '5,50€' }],
-        image: '/src/assets/images/fingerfood_suesse_fritten_1794828153902.jpg',
+        image: './src/assets/images/fingerfood_suesse_fritten_1794828153902.jpg',
         imageAlt: 'Süße Fritten aus frischen Süßkartoffeln',
       },
       {
@@ -350,7 +350,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: '6 Stück', price: '7,00€' },
           { label: '9 Stück', price: '9,50€' },
         ],
-        image: '/src/assets/images/fingerfood_chicken_sticks_1794828154405.jpg',
+        image: './src/assets/images/fingerfood_chicken_sticks_1794828154405.jpg',
         imageAlt: 'Panierte Chicken Sticks in 3, 6 oder 9 Stück',
       },
       {
@@ -363,7 +363,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: '6 Stück', price: '5,00€' },
           { label: '9 Stück', price: '7,00€' },
         ],
-        image: '/src/assets/images/fingerfood_chicken_nuggets_1794828155292.jpg',
+        image: './src/assets/images/fingerfood_chicken_nuggets_1794828155292.jpg',
         imageAlt: 'Knusprige Chicken Nuggets in 3, 6 oder 9 Stück',
       },
       {
@@ -372,7 +372,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         description: 'Pommes, Cheese sauce',
         fallbackSubtitle: 'Pommes mit Käsesauce',
         prices: [{ label: 'Preis', price: '5,00€' }],
-        image: '/src/assets/images/fingerfood_cheese_fries_1794828156364.jpg',
+        image: './src/assets/images/fingerfood_cheese_fries_1794828156364.jpg',
         imageAlt: 'Mr. Nice Cheese Fries mit cremiger Käsesauce',
       },
       {
@@ -383,7 +383,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           { label: 'S', price: '3,50€' },
           { label: 'M', price: '6,50€' },
         ],
-        image: '/src/assets/images/fingerfood_currywurst_1794828156642.jpg',
+        image: './src/assets/images/fingerfood_currywurst_1794828156642.jpg',
         imageAlt: 'Currywurst in Größe S oder M',
       },
       {
@@ -393,7 +393,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           '2 knuspriges, traditionelles Blätterteiggebäck mit einer feinen Nussfüllung, verfeinert mit süßem Sirup. Saftig, knusprig und aromatisch - der perfekte süße Abschluss.',
         fallbackSubtitle: 'Traditionelles Blätterteiggebäck',
         prices: [{ label: '2 Stück', price: '5,50€' }],
-        image: '/src/assets/images/fingerfood_baklava_1794828157224.jpg',
+        image: './src/assets/images/fingerfood_baklava_1794828157224.jpg',
         imageAlt: '2 knusprige Baklava mit Nussfüllung und süßem Sirup',
       },
       {
@@ -403,7 +403,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           'Die "Creamy Crunch Nachos" vereinen knusprige Tortilla-Chips mit einer herrlich cremigen Käsesauce.',
         fallbackSubtitle: 'Tortilla-Chips mit Käsesauce',
         prices: [{ label: 'Preis', price: '6,50€' }],
-        image: '/src/assets/images/fingerfood_nachos_1794828155994.jpg',
+        image: './src/assets/images/fingerfood_nachos_1794828155994.jpg',
         imageAlt: 'Creamy Crunch Nachos mit warmer Käsesauce',
       },
       {
@@ -413,7 +413,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           '3x Chicken Nuggets, 3x Chili Cheese Nuggets, 3x Mozarella Sticks und Pommes',
         fallbackSubtitle: 'Gemischte Nugget Snack Box mit Pommes',
         prices: [{ label: 'Menü', price: '9,50€' }],
-        image: '/src/assets/images/fingerfood_nugget_box_1794828157427.jpg',
+        image: './src/assets/images/fingerfood_nugget_box_1794828157427.jpg',
         imageAlt: 'Nugget Snack Box Menü mit Chicken Nuggets, Chili Cheese Nuggets, Mozzarella Sticks und Pommes',
       },
       {
@@ -423,7 +423,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           '3x Chicken Wings, 3x Chili Cheese Nugget, 3x Mozzarella Sticks und Knackige Pommes',
         fallbackSubtitle: 'Chicken Wings Snack Box mit Pommes',
         prices: [{ label: 'Menü', price: '13,50€' }],
-        image: '/src/assets/images/fingerfood_wings_box_1794828157353.jpg',
+        image: './src/assets/images/fingerfood_wings_box_1794828157353.jpg',
         imageAlt: "Chicke'n Wings Snack Box Menü mit Wings, Chili Cheese Nuggets, Mozzarella Sticks und Pommes",
       },
     ],
@@ -441,7 +441,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
           'KOLA, KOLA LIGHT, KOLA ZERO, MISCH MASCH, ZITRONEN LIMO, LIMO ORANGE, HONIGMELONE, LIMO APFEL KIRSCH HOLUNDER',
         fallbackSubtitle: 'Fritz-Kola & Fritz-Limo Sorten',
         prices: [{ label: 'Flasche', price: '2,80€' }],
-        image: '/src/assets/images/drink_fritz_1794828191711.jpg',
+        image: './src/assets/images/drink_fritz_1794828191711.jpg',
         imageAlt: 'Fritz Kola und Fritz Limo Sorten gekühlt serviert',
       },
       {
@@ -450,7 +450,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         description: 'Tea Lemon, Tea Mango, Tea Peach, Blueberry, Melone',
         fallbackSubtitle: 'Fruchtiger Eistee',
         prices: [{ label: 'Preis', price: '2,80€' }],
-        image: '/src/assets/images/drink_california_icetea_halal_1794828220814.jpg',
+        image: './src/assets/images/drink_california_icetea_halal_1794828220814.jpg',
         imageAlt: 'California Ice Tea in den Sorten Lemon, Mango, Peach, Blueberry und Melone',
       },
       {
@@ -458,7 +458,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         name: 'WASSER STILL',
         fallbackSubtitle: 'Getränke · Stilles Wasser',
         prices: [{ label: 'Preis', price: '1,50€' }],
-        image: '/src/assets/images/drink_wasser_still_1794828191741.jpg',
+        image: './src/assets/images/drink_wasser_still_1794828191741.jpg',
         imageAlt: 'Gekühltes stilles Wasser im Glas und Flasche',
       },
       {
@@ -466,7 +466,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         name: 'WASSER SPRUDEL',
         fallbackSubtitle: 'Getränke · Mineralwasser mit Kohlensäure',
         prices: [{ label: 'Preis', price: '1,50€' }],
-        image: '/src/assets/images/drink_wasser_sprudel_1794828191789.jpg',
+        image: './src/assets/images/drink_wasser_sprudel_1794828191789.jpg',
         imageAlt: 'Gekühltes Sprudelwasser mit Kohlensäure',
       },
     ],
@@ -482,7 +482,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '0,60€' }],
-        image: '/src/assets/images/sauce_ketchup_1794828191299.jpg',
+        image: './src/assets/images/sauce_ketchup_1794828191299.jpg',
         imageAlt: 'Ketchup Dip-Schälchen',
       },
       {
@@ -491,7 +491,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '0,60€' }],
-        image: '/src/assets/images/sauce_mayo_1794828192239.jpg',
+        image: './src/assets/images/sauce_mayo_1794828192239.jpg',
         imageAlt: 'Mayonnaise Dip-Schälchen',
       },
       {
@@ -500,7 +500,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '0,60€' }],
-        image: '/src/assets/images/sauce_curry_1794828191691.jpg',
+        image: './src/assets/images/sauce_curry_1794828191691.jpg',
         imageAlt: 'Curry Dip-Schälchen',
       },
       {
@@ -509,7 +509,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '0,70€' }],
-        image: '/src/assets/images/sauce_sweet_chili_1794828193365.jpg',
+        image: './src/assets/images/sauce_sweet_chili_1794828193365.jpg',
         imageAlt: 'Sweet Chili Dip-Schälchen',
       },
       {
@@ -518,7 +518,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '0,70€' }],
-        image: '/src/assets/images/sauce_senf_1794828192152.jpg',
+        image: './src/assets/images/sauce_senf_1794828192152.jpg',
         imageAlt: 'Senf Dip-Schälchen',
       },
       {
@@ -527,7 +527,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '0,70€' }],
-        image: '/src/assets/images/sauce_bbq_1794828194981.jpg',
+        image: './src/assets/images/sauce_bbq_1794828194981.jpg',
         imageAlt: 'BBQ Sauce Dip-Schälchen',
       },
       {
@@ -536,7 +536,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '0,80€' }],
-        image: '/src/assets/images/sauce_andalouse_1794828194457.jpg',
+        image: './src/assets/images/sauce_andalouse_1794828194457.jpg',
         imageAlt: 'Andalouse Sauce Dip-Schälchen',
       },
       {
@@ -546,7 +546,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         spiceTag: 'Scharf',
         fallbackSubtitle: 'Saucen · Scharfer Dip',
         prices: [{ label: 'Dip', price: '0,80€' }],
-        image: '/src/assets/images/sauce_samurai_1794828194359.jpg',
+        image: './src/assets/images/sauce_samurai_1794828194359.jpg',
         imageAlt: 'Samurai Sauce Dip-Schälchen',
       },
       {
@@ -555,7 +555,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['2', '4'],
         fallbackSubtitle: 'Saucen · Dip',
         prices: [{ label: 'Dip', price: '1,00€' }],
-        image: '/src/assets/images/sauce_joppie_1794828193186.jpg',
+        image: './src/assets/images/sauce_joppie_1794828193186.jpg',
         imageAlt: 'Joppie Sauce Dip-Schälchen',
       },
     ],
@@ -571,7 +571,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['7'],
         fallbackSubtitle: 'Extras · Käse-Topping',
         prices: [{ label: 'Extra', price: '0.80€' }],
-        image: '/src/assets/images/extra_cheddar_1794828195286.jpg',
+        image: './src/assets/images/extra_cheddar_1794828195286.jpg',
         imageAlt: 'Extra Cheddar Käse',
       },
       {
@@ -580,7 +580,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['7'],
         fallbackSubtitle: 'Extras · Käse-Topping',
         prices: [{ label: 'Extra', price: '0.80€' }],
-        image: '/src/assets/images/extra_parmesan_1794828194836.jpg',
+        image: './src/assets/images/extra_parmesan_1794828194836.jpg',
         imageAlt: 'Extra Parmesan Käse',
       },
       {
@@ -589,7 +589,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         additives: ['7'],
         fallbackSubtitle: 'Extras · Käse-Topping',
         prices: [{ label: 'Extra', price: '0.80€' }],
-        image: '/src/assets/images/extra_gorgonzola_1794828195166.jpg',
+        image: './src/assets/images/extra_gorgonzola_1794828195166.jpg',
         imageAlt: 'Extra Gorgonzola Käse',
       },
       {
@@ -597,7 +597,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         name: 'KARAMELISIERTE ZWIEBELN',
         fallbackSubtitle: 'Extras · Topping',
         prices: [{ label: 'Extra', price: '0.80€' }],
-        image: '/src/assets/images/extra_karamellisierte_zwiebeln_1794828196171.jpg',
+        image: './src/assets/images/extra_karamellisierte_zwiebeln_1794828196171.jpg',
         imageAlt: 'Extra karamellisierte Zwiebeln',
       },
       {
@@ -605,7 +605,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         name: 'BACON',
         fallbackSubtitle: 'Extras · Topping',
         prices: [{ label: 'Extra', price: '1.00€' }],
-        image: '/src/assets/images/extra_bacon_1794828196342.jpg',
+        image: './src/assets/images/extra_bacon_1794828196342.jpg',
         imageAlt: 'Extra knuspriger Bacon',
       },
       {
@@ -613,7 +613,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         name: 'SPIEGELEI',
         fallbackSubtitle: 'Extras · Topping',
         prices: [{ label: 'Extra', price: '1.20€' }],
-        image: '/src/assets/images/extra_spiegelei_1794828196231.jpg',
+        image: './src/assets/images/extra_spiegelei_1794828196231.jpg',
         imageAlt: 'Extra Spiegelei',
       },
       {
@@ -621,7 +621,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         name: 'EXTRA BEEF/EXTRA CHICKEN',
         fallbackSubtitle: 'Extras · Zusätzliches Patty',
         prices: [{ label: 'Extra', price: '3.50€' }],
-        image: '/src/assets/images/extra_beef_chicken_1794828195555.jpg',
+        image: './src/assets/images/extra_beef_chicken_1794828195555.jpg',
         imageAlt: 'Extra Beef Patty oder Extra Chicken Brust',
       },
     ],
